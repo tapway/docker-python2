@@ -1,4 +1,4 @@
-FROM iarruss/python2:latest
+FROM python:2.7
 
 LABEL maintainer="<iarruss@ya.ru>"
 RUN apt-get update && apt-get install -y \
