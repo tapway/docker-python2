@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM iarruss/docker-python2:0.1.0
 
 LABEL maintainer="<iarruss@ya.ru>"
 RUN apt-get update && apt-get install -y \
