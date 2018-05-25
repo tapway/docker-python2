@@ -11,6 +11,7 @@ Cerberus==1.2
 certifi==2018.4.16
 chardet==3.0.4
 decorator==4.2.1
+dictdiffer==0.7.1
 docopt==0.6.2
 docutils==0.14
 dynamo-objects==1.0.17
