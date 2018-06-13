@@ -2,11 +2,15 @@
 
 Up to date test environment. Modification of [docker-python27-pandas](https://github.com/serebrov/docker-python27-pandas)
 
-Automated image deployment can triggered by `tag`
+#### How-to use
+* copy modified `requirements.txt` from `tapway-data`
+* commit and push changes to `origin/master` 
 
-Manual tag settings example:
+
+Manual tag settings example(useful for mark new):
 ```bash
+make
 docker images
-docker tag 2d4c92906f73 iarruss/docker-python2:0.1.0
+docker tag <image hash> iarruss/docker-python2:0.1.0
 docker push iarruss/docker-python2:0.1.0
 ``` 
